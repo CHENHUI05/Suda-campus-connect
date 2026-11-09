@@ -1,4 +1,4 @@
-# 苏州大学校园网一键连接（Windows）
+# Suda校园网一键连接（Windows）
 
 一个基于 PowerShell 的校园网自动登录 / 断线重连工具。双击即可完成认证，并通过 Windows 任务计划程序实现定时重连与开机自动连接，**无常驻进程、无需管理员权限**。
 
@@ -14,7 +14,7 @@
 ## 适用环境
 
 - Windows 10 / Windows 11（PowerShell 5.1 系统自带，兼容 PowerShell 7）
-- Linux 服务器（bash + cron，见 [`linux/README.md`](linux/README.md)）
+- Linux 服务器（bash + cron，见 [`linux/README.md`](linux/README.md)，暂未测试）
 - 苏州大学 Dr.COM 类型网关（`10.9.1.3:801/eportal/`），其他同协议高校可自行修改网关地址
 
 ## 快速开始
@@ -39,7 +39,6 @@
 | `suda-campus.example.json` | 配置文件模板（复制为 `suda-campus.json` 后使用） |
 | `linux/` | Linux 服务器版（bash + cron），部署方法见该目录 README |
 | `使用说明.md` | 详细的本地使用说明 |
-| `测试结果.md` | 脚本测试覆盖情况与限制说明 |
 
 首次启动后会自动生成 `suda-campus.json`（账号密码配置）和 `运行日志.txt`，两者均已被 `.gitignore` 忽略，不会被提交。
 
