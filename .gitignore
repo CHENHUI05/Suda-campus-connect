@@ -1,0 +1,19 @@
+# 含账号密码的本地配置，禁止提交
+suda-campus.json
+
+# 运行日志
+运行日志.txt
+
+# 本地上传指南（含本机路径，不入库）
+GitHub上传指南.md
+
+# Linux 本地配置与日志
+linux/suda-campus.conf
+linux/campus.log
+
+# 系统与编辑器临时文件
+Thumbs.db
+desktop.ini
+*.tmp
+.vscode/
+.idea/

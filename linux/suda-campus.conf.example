@@ -1,0 +1,14 @@
+# 校园网配置模板。使用时复制为 suda-campus.conf 并填写：
+#   cp suda-campus.conf.example suda-campus.conf
+# 运营商后缀：移动 @zgyd、联通 @cucc、电信 @ctc；学校校园网留空不加后缀
+
+PROVIDER="中国移动"
+USERNAME="20241234567@zgyd"
+PASSWORD="请填写校园网密码"
+
+# 指定网卡名称，留空则自动选择通往网关的网卡。查看网卡名：ip addr
+IFACE=""
+
+# 网关地址与定时间隔（分钟，5-1440）
+GATEWAY="10.9.1.3"
+INTERVAL=30
